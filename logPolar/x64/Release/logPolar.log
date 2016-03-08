@@ -1,0 +1,24 @@
+﻿生成启动时间为 3/8/2016 10:52:53 AM。
+     1>项目“d:\visual studio 2010\Projects\logPolar\logPolar\logPolar.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\logPolar.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>main.cpp(11): warning C4129: “T”: 不可识别的字符转义序列
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"d:\visual studio 2010\Projects\logPolar\x64\Release\logPolar.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\opencv\build\x64\vc10\lib opencv_core244.lib opencv_highgui244.lib opencv_imgproc244.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\logPolar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\visual studio 2010\Projects\logPolar\x64\Release\logPolar.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\visual studio 2010\Projects\logPolar\x64\Release\logPolar.lib" /MACHINE:X64 x64\Release\main.obj
+         logPolar.vcxproj -> d:\visual studio 2010\Projects\logPolar\x64\Release\logPolar.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"d:\visual studio 2010\Projects\logPolar\x64\Release\logPolar.exe;#1" /manifest x64\Release\logPolar.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\logPolar.unsuccessfulbuild”。
+         正在对“x64\Release\logPolar.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“d:\visual studio 2010\Projects\logPolar\logPolar\logPolar.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.88
