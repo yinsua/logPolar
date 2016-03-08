@@ -6,29 +6,29 @@
 using namespace std;
 
 int main(int argc, char ** argv){
-	IplImage* src;
+	IplImage* src
 	double M;
-	src = cvLoadImage("D:\Tulips.jpg",1);
+	src = cvLoadImage("D:\line.png",1);
 	if (!src) {
 		cout << " open picture failed";
 		cvWaitKey();
 		return 0;
 	}
 
-	M = atof("0.8");
+	M = atof("0.5");
 	IplImage* dst = cvCreateImage( cvGetSize(src), 8, 3 );
 	IplImage* src2 = cvCreateImage( cvGetSize(src), 8, 3 );
 	cvLogPolar(
 		src,
 		dst,
-		cvPoint2D32f(src->width/4,src->height/2),
+		cvPoint2D32f(src->width/2,src->height/2),
 		M,
 		CV_INTER_LINEAR+CV_WARP_FILL_OUTLIERS
 		);
 	cvLogPolar(
 		dst,
 		src2,
-		cvPoint2D32f(src->width/4,src->height/2),
+		cvPoint2D32f(src->width/2,src->height/2),
 		M,
 		CV_INTER_LINEAR | CV_WARP_INVERSE_MAP
 		);
